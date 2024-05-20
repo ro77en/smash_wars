@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddpl7rsqrboee"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_bexnx"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_bexnx")
+
+[node name="btPlay" type="Button" parent="."]
+offset_left = 433.0
+offset_top = 124.0
+offset_right = 702.0
+offset_bottom = 283.0
+text = "Play"
+
+[node name="btQuit" type="Button" parent="."]
+offset_left = 435.0
+offset_top = 358.0
+offset_right = 704.0
+offset_bottom = 517.0
+text = "Quit Game"
+
+[connection signal="pressed" from="btQuit" to="." method="_on_bt_quit_pressed"]
