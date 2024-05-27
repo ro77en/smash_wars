@@ -42,6 +42,5 @@ func _physics_process(delta):
 	if Game.player_hp <= 0:
 		Game.player_hp = 10
 		Game.gold = 0
-		Utils.save_game()
 		queue_free()
 		get_tree().change_scene_to_file("res://main.tscn")

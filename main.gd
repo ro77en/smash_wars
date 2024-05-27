@@ -1,7 +1,7 @@
 extends Node2D
 
 func _ready():
-	#Utils.save_game()
+	Utils.save_game()
 	Utils.load_game()
 
 func _on_bt_quit_pressed():

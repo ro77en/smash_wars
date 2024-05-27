@@ -1,19 +1,22 @@
 2a60927148abd1d33b818b535e306557
-::res://::1716842662
+::res://::1716845148
 BG.gd::GDScript::-1::1716817397::0::1::::<>ParallaxBackground<>::
-BG.tscn::PackedScene::5282638821460479737::1716842252::0::1::::<><>::res://BG.gd<>uid://cfn6jqlp48jw3::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/back.png<>uid://eg8m22iyqpds::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/plant-house.png<>uid://44n1wpw8d68c::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/middle.png<>uid://gia04k3ejk28::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/wooden-house.png<>uid://cigcrwke23ce5::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/straw-house.png<>uid://ch1grf55gcptb::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/tree-house.png
-Frog.gd::GDScript::-1::1716842222::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::7495460337761055561::1716842252::0::1::::<><>::uid://kyrrm06rqcq5::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/frog-idle.png<>res://Frog.gd<>uid://c5f0x2ljg80h1::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/enemy-deadth.png<>uid://bxrw8xhlxsxpf::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/frog-jump.png
+BG.tscn::PackedScene::5282638821460479737::1716844775::0::1::::<><>::res://BG.gd<>uid://cfn6jqlp48jw3::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/back.png<>uid://eg8m22iyqpds::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/plant-house.png<>uid://44n1wpw8d68c::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/middle.png<>uid://gia04k3ejk28::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/wooden-house.png<>uid://cigcrwke23ce5::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/straw-house.png<>uid://ch1grf55gcptb::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Props/tree-house.png
+Frog.gd::GDScript::-1::1716843684::0::1::::<>CharacterBody2D<>::
+Frog.tscn::PackedScene::7495460337761055561::1716844775::0::1::::<><>::uid://kyrrm06rqcq5::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/frog-idle.png<>res://Frog.gd<>uid://c5f0x2ljg80h1::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/enemy-deadth.png<>uid://bxrw8xhlxsxpf::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/spritesheets/frog-jump.png
 icon.svg::CompressedTexture2D::7967742149480865579::1716244813::1716244818::1::::<><>::
-main.gd::GDScript::-1::1716842662::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7401520202082856796::1716842662::0::1::::<><>::res://main.gd<>uid://chi7j305swfen::::res://BG.tscn
-world.tscn::PackedScene::6225318111283486814::1716842252::0::1::::<><>::uid://dbrjba8p0pdkx::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/tileset.png<>uid://bt3ne1pmsortv::::res://Player/Player.tscn<>res://BG.gd<>uid://cfn6jqlp48jw3::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/back.png<>uid://de14ev8m7875f::::res://Frog.tscn
-::res://Global/::1716842683
-Game.gd::GDScript::-1::1716842683::0::1::::<>Node<>::
-::res://Player/::1716842252
-Player.gd::GDScript::-1::1716835454::0::1::::<>CharacterBody2D<>::
+main.gd::GDScript::-1::1716843239::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7401520202082856796::1716844775::0::1::::<><>::res://main.gd<>uid://chi7j305swfen::::res://BG.tscn
+world.tscn::PackedScene::6225318111283486814::1716844775::0::1::::<><>::uid://dbrjba8p0pdkx::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/tileset.png<>uid://bt3ne1pmsortv::::res://Player/Player.tscn<>res://BG.gd<>uid://cfn6jqlp48jw3::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/back.png<>uid://de14ev8m7875f::::res://Frog.tscn
+::res://Collectibles/::1716845222
+cherry.tscn::PackedScene::7685876026347375244::1716845222::0::1::::<><>::uid://c4a52m0mmpo0l::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-1.png<>uid://dwt81j7u3xd2j::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-2.png<>uid://d4c4nvbsfohx7::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-3.png<>uid://ba1tarq3bpfy3::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-4.png<>uid://ikvy4eh3k1y2::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-5.png<>uid://povbnsrw6jkh::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-6.png<>uid://b03wnk84oet10::::res://Sunny Land Collection Files/Assets/Packs/Sunnyland/sprites/cherry/cherry-7.png
+::res://Global/::1716843119
+Game.gd::GDScript::-1::1716842730::0::1::::<>Node<>::
+Utils.gd::GDScript::-1::1716843119::0::1::::<>Node<>::
+::res://Player/::1716844775
+Player.gd::GDScript::-1::1716844218::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::2863363680984957541::1716811824::1716811830::1::::<><>::
-Player.tscn::PackedScene::3778609143359993391::1716842252::0::1::::<><>::res://Player/Player.gd<>uid://bg2bgf2aqaa6h::::res://Player/player.png
+Player.tscn::PackedScene::3778609143359993391::1716844775::0::1::::<><>::res://Player/Player.gd<>uid://bg2bgf2aqaa6h::::res://Player/player.png
 ::res://Sunny Land Collection Files/::1716247370
 ::res://Sunny Land Collection Files/Assets/::1716247367
 ::res://Sunny Land Collection Files/Assets/Characters/::1716247365

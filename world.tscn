@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://cuxucyg8qdvrq"]
+[gd_scene load_steps=11 format=3 uid="uid://cuxucyg8qdvrq"]
 
 [ext_resource type="Texture2D" uid="uid://dbrjba8p0pdkx" path="res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/tileset.png" id="1_u0ya2"]
 [ext_resource type="PackedScene" uid="uid://bt3ne1pmsortv" path="res://Player/Player.tscn" id="1_ya370"]
 [ext_resource type="Script" path="res://BG.gd" id="2_h6svj"]
 [ext_resource type="Texture2D" uid="uid://cfn6jqlp48jw3" path="res://Sunny Land Collection Files/Assets/Packs/Sunnyland/environment/Background/back.png" id="3_jjbbi"]
 [ext_resource type="PackedScene" uid="uid://de14ev8m7875f" path="res://Frog.tscn" id="5_tghpv"]
+[ext_resource type="PackedScene" uid="uid://dhrdixbxt1fcu" path="res://Collectibles/cherry.tscn" id="6_2vc6l"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_48be8"]
 texture = ExtResource("1_u0ya2")
@@ -494,3 +495,8 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 28
 text = "Gold"
 script = SubResource("GDScript_uqquj")
+
+[node name="Collectibles" type="Node2D" parent="."]
+
+[node name="Cherry" parent="Collectibles" instance=ExtResource("6_2vc6l")]
+position = Vector2(407, 373)

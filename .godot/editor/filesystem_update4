@@ -9,3 +9,5 @@ res://Frog.gd
 res://Global/Game.gd
 res://Global/Utils.gd
 res://main.gd
+res://Collectibles/cherry.tscn
+res://Collectibles/Cherry.tscn
