@@ -6,3 +6,6 @@ res://BG.tscn
 res://BG.gd
 res://Frog.tscn
 res://Frog.gd
+res://Global/Game.gd
+res://Global/Utils.gd
+res://main.gd

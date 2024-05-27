@@ -1,6 +1,5 @@
 extends CharacterBody2D
 
-var health = 10
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
@@ -40,6 +39,9 @@ func _physics_process(delta):
 		anim.play("Fall")
 	move_and_slide()
 	
-	if health <= 0:
+	if Game.player_hp <= 0:
+		Game.player_hp = 10
+		Game.gold = 0
+		Utils.save_game()
 		queue_free()
-		get_tree().change_scene_to_file("res>//main.tscn")
+		get_tree().change_scene_to_file("res://main.tscn")
