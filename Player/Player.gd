@@ -25,7 +25,7 @@ func _physics_process(delta):
 	
 	if direction == -1:
 		get_node("AnimatedSprite2D").flip_h = true
-	else:
+	elif direction == 1:
 		get_node("AnimatedSprite2D").flip_h = false
 	
 	if direction:
