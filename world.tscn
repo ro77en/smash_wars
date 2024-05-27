@@ -476,16 +476,25 @@ position = Vector2(569, 274)
 [node name="Mobs" type="Node2D" parent="."]
 
 [node name="Frog" parent="Mobs" instance=ExtResource("5_tghpv")]
-position = Vector2(672, 309)
+position = Vector2(695, 359)
 
 [node name="Frog2" parent="Mobs" instance=ExtResource("5_tghpv")]
-position = Vector2(309, 343)
+position = Vector2(252, 363)
 
 [node name="Frog3" parent="Mobs" instance=ExtResource("5_tghpv")]
-position = Vector2(434, 304)
+position = Vector2(425, 306)
 
 [node name="Frog4" parent="Mobs" instance=ExtResource("5_tghpv")]
-position = Vector2(867, 358)
+position = Vector2(878, 344)
+
+[node name="Frog5" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(881, 159)
+
+[node name="Frog6" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(295, 220)
+
+[node name="Frog7" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(800, 270)
 
 [node name="UI" type="CanvasLayer" parent="."]
 

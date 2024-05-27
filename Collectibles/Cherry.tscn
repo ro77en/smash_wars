@@ -15,9 +15,9 @@ script/source = "extends Area2D
 func _on_body_entered(body):
 	if body.name == \"Player\":
 		Game.player_hp += 3
-		Utils.save_game()
+		
 		var tween = get_tree().create_tween()
-		tween.tween_property(self, \"position\", position - Vector2(0, 40), 1)
+		tween.tween_property(self, \"position\", position - Vector2(0,30), 1)
 		tween.tween_callback(queue_free)
 		
 "

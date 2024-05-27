@@ -1,13 +1,5 @@
-res://Player/Player.tscn
-res://world.tscn
 res://main.tscn
-res://Player/Player.gd
+res://world.tscn
+res://Player/Player.tscn
 res://BG.tscn
-res://BG.gd
 res://Frog.tscn
-res://Frog.gd
-res://Global/Game.gd
-res://Global/Utils.gd
-res://main.gd
-res://Collectibles/cherry.tscn
-res://Collectibles/Cherry.tscn
