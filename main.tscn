@@ -1,23 +1,26 @@
-[gd_scene load_steps=2 format=3 uid="uid://ddpl7rsqrboee"]
+[gd_scene load_steps=3 format=3 uid="uid://ddpl7rsqrboee"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_bexnx"]
+[ext_resource type="PackedScene" uid="uid://chi7j305swfen" path="res://BG.tscn" id="2_wmmga"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_bexnx")
 
 [node name="btPlay" type="Button" parent="."]
-offset_left = 433.0
-offset_top = 124.0
-offset_right = 702.0
-offset_bottom = 283.0
+offset_left = 477.0
+offset_top = 172.0
+offset_right = 710.0
+offset_bottom = 275.0
 text = "Play"
 
 [node name="btQuit" type="Button" parent="."]
-offset_left = 435.0
-offset_top = 358.0
-offset_right = 704.0
-offset_bottom = 517.0
+offset_left = 479.0
+offset_top = 365.0
+offset_right = 710.0
+offset_bottom = 462.0
 text = "Quit Game"
+
+[node name="BG" parent="." instance=ExtResource("2_wmmga")]
 
 [connection signal="pressed" from="btPlay" to="." method="_on_bt_play_pressed"]
 [connection signal="pressed" from="btQuit" to="." method="_on_bt_quit_pressed"]
