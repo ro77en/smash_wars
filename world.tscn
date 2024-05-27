@@ -419,7 +419,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	text = str(get_node(\"../../Player/Player\").health)
+	text = \"HP: \" + str(get_node(\"../../Player/Player\").health)
 "
 
 [node name="World" type="Node2D"]
@@ -448,11 +448,25 @@ position = Vector2(569, 274)
 [node name="Mobs" type="Node2D" parent="."]
 
 [node name="Frog" parent="Mobs" instance=ExtResource("5_tghpv")]
-position = Vector2(759, 313)
+position = Vector2(672, 309)
+
+[node name="Frog2" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(309, 343)
+
+[node name="Frog3" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(434, 304)
+
+[node name="Frog4" parent="Mobs" instance=ExtResource("5_tghpv")]
+position = Vector2(867, 358)
 
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="Hp" type="Label" parent="UI"]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 17.0
+offset_top = -1.0
+offset_right = 57.0
+offset_bottom = 33.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "HP"
 script = SubResource("GDScript_ylro4")

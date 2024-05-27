@@ -38,5 +38,8 @@ func _physics_process(delta):
 			anim.play("Idle")
 	if velocity.y > 0:
 		anim.play("Fall")
-
 	move_and_slide()
+	
+	if health <= 0:
+		queue_free()
+		get_tree().change_scene_to_file("res>//main.tscn")
