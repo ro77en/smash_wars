@@ -7,17 +7,17 @@
 script = ExtResource("1_bexnx")
 
 [node name="btPlay" type="Button" parent="."]
-offset_left = 477.0
-offset_top = 172.0
-offset_right = 710.0
-offset_bottom = 275.0
+offset_left = 461.0
+offset_top = 167.0
+offset_right = 694.0
+offset_bottom = 270.0
 text = "Play"
 
 [node name="btQuit" type="Button" parent="."]
-offset_left = 479.0
-offset_top = 365.0
-offset_right = 710.0
-offset_bottom = 462.0
+offset_left = 462.0
+offset_top = 369.0
+offset_right = 693.0
+offset_bottom = 466.0
 text = "Quit Game"
 
 [node name="BG" parent="." instance=ExtResource("2_wmmga")]
